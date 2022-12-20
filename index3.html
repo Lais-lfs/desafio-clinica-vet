@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: #a4dfff;
+            padding: 10px 20px 0px;
+
+        }
+        .header {
+
+            min-height: 150px;
+        }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+            text-align: center;
+            font-size: large;
+        }
+        .footer {
+            background-color: #89ccd3;
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 40px;
+        }
+        span {
+            color: #0099cc8e;
+        }
+        
+        .textos1 {
+            text-align: left;
+            margin-left: 5%;
+
+        }
+
+        table {
+            border: solid 1px lightgray;
+        }
+        table thead th {
+            background-color: #0099cc59;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: #0099cc1c;
+        }
+        table tbody tr:hover td {
+            background-color: #E9E9E9;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <div class="icone-header"><img src="icone.png" width="90" style="margin-left: 50px; padding-top: 20px;"></div>
+            <br><br><br>
+            <ul>
+                <li><a href="./index.html">Página Principal</a></li>
+                <li><a href="./index2.html">Sobre a Clínica</a></li>
+                <li><a href="./index3.html">Horário de Atendimento</a></li>
+                <li><a href="./index4.html">Contato</a></li>
+            </ul>
+        </div>
+        
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+
+                <img src="foto4.jpg" width="100%" style="min-height: 150px">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+
+                <h1>Clínica Veterinária <span>Pet Mimado</span></h1>
+                <h3><span>Platões de atendimentos 24 horas por dia.</span></h3><br>
+
+                <div class="textos1">
+                <h3>
+                    Conheça os nossos serviços e os horários de atendimento de nossos especialistas.
+                </h3><br>
+                <h2><span>Atendimento Veterinário</span></h2>
+                <p>Verifique o estado de saúde do seu pet com o nosso <strong>Veterinário Clinico Geral</strong> ou marque um horário com um de nossos <strong>veterinários especialistas</strong>.</p>
+                <p>Possuímos diversas especialidades veterinárias para melhor atender o seu pet:</p>
+                    
+                        <li>Cardiologia</li>
+                        <li>Endocrinologia</li>
+                        <li>Gastroenterologia</li>
+                        <li>Nutrição para cães e gatos</li>
+                        <li>Dentista Pet</li>
+                        <li>Oftalmologia</li>
+                        <li>Oncologia</li>
+                        <li>Ortopedia</li>
+                </div>
+                <br>
+                <div class="textos1">
+                    <h2><span>Cirurgia Veterinária</span></h2>
+                    <p>Seu pet precisa realizar algum tipo de cirurgia? Conte com a nossa equipe de profissionais e nossa <strong>estrutura completa para realizar cirurgias</strong> das mais simples até as mais complexas. Todos os animais passam por uma avaliação e realizam exames pré operatórios veterinários antes de qualquer procedimento cirúrgico.</p>
+                    <p>Realizamos na rotina:</p>
+    
+                        <li>Castração de cães e gatos</li>
+                        <li>Profilaxia oral (limpeza e remoção de tártaro)</li>
+                        <li>Entre outras</li>
+
+                </div>
+                <br>
+                <div class="textos1">
+                    <h2><span>Exames Veterinários</span></h2>
+                    <p>Temos veterinários especializados em ultrassonografia para realizar diagnósticos precisos e equipamento para realizar Raio-X digital, tendo <strong>muito mais qualidade nas imagens</strong> e ajudando no atendimento e diagnóstico do pet.</p>
+
+                </div>
+                <br>
+                <div class="textos1">
+                    <h2><span>Atendimento 24 horas</span></h2>
+                    <p>Trabalhamos 24 horas por dia para <strong>atendimentos emergenciais</strong>, <strong>cirurgias</strong> e muito mais, especialmente para o seu cachorro ou gato.</p>
+                    <p>Nossos médicos veterinários estão em constante atualização em pós graduações, cursos e congressos para oferecer sempre o melhor diagnóstico e tratamento aos nossos pets.</p><br>
+                </div>
+                <br>
+                <div>
+                    <table align="center" cellpadding="9" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th colspan="5">Horários de Atendimentos e Valores de Consultas</th>
+                            </tr>
+                            <tr>
+                                <th><strong>Serviços</strong></th>
+                                <th><strong>Segunda a sexta</strong></th>
+                                <th><strong>Sábados</strong></th>
+                                <th><strong>Domingos e Feriados</strong></th>
+                                <th><strong>Preços</strong></th>
+                            </tr>
+    
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Clínico Geral</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>09h - 16h</td>
+                                <td>R$ 150,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Cardiologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>09h - 12h</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Endocrinologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>-</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Gastroenterologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>-</td>
+                                <td>R$ 190,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Nutrição para cães e gatos</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>-</td>
+                                <td>R$ 100,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Dentista Pet</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>09h - 12h</td>
+                                <td>R$ 90,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Oftalmologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>-</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Oncologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>-</td>
+                                <td>R$ 250,00</td>
+                            </tr>
+    
+                            <tr>
+                                <td>Ortopedia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 13h</td>
+                                <td>-</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+    
+                        </tbody>
+    
+                    </table>
+                </div>
+
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+
+                <img src="icone.png" width="80" alt>
+                <div class="contatos">
+                    <u><strong>Nossos Contatos:</strong></u>
+                    <p><strong>Telefone</strong>: +55 31 99952-9999</p>
+                    <p><strong>WhatsApp</strong>: +55 31 3265-5241</p>
+                    <p>clinicapetmimado@vet.com.br</p>
+                </div>
+                <div class="end">
+                    <div class="titulos-rodape"><u><strong>Endereço:</strong></u></div>
+                    <p>Rua Luiz de Souza Lima, nº 99</p>
+                    <p>Bairro Mineirão</p>
+                    <p>Belo Horizonte - MG</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
